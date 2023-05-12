@@ -1,0 +1,51 @@
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.button-stop {
+  background-color: pink;
+}
+
+.button-start {
+  background-color: lightgreen;
+}
+
+.frog-animation-img {
+  height: 541px;
+  width: 433px;
+  background-image: url(https://cdn-user84632.skyeng.ru/shared/large-media/education/frog_sequence.jpg);
+  background-size: 1300px 1082px;
+}
+
+.k1 {
+  background-position-x: 0;
+  background-position-y: 0;
+}
+
+.k2 {
+  background-position-x: 433px;
+  background-position-y: 0;
+}
+
+.k3 {
+  background-position-x: 866px;
+  background-position-y: 0;
+}
+
+.k4 {
+  background-position-x: 0;
+  background-position-y: 541px;
+}
+
+.k5 {
+  background-position-x: 433px;
+  background-position-y: 541px;
+}
+
+.k6 {
+  background-position-x: 866px;
+  background-position-y: 541px;
+}
